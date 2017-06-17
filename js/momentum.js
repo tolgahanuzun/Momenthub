@@ -60,11 +60,6 @@ momentum.Core.prototype = {
 		ret = ret + hours + ':' + mins;
 		this.timeStr = ret;
   },
-		setQuote: function(quoteData) {
-		this.quoteStr = quoteData.message;
-		this.quoteEl.text(this.quoteStr);
-		this.render();
-  },
 	// `setWeather` method
 	// This method should set the `weatherStr` property of the momentum core. This method will be used as the callback for weatherCtrl's `fetchWeather` function.
 	// 
@@ -111,7 +106,6 @@ momentum.Core.prototype = {
 		}.bind(this), error);
 		this.setTime();
 		
-		this.updateQuote();
 		this.render();
 	},
 
