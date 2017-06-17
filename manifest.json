@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Momenthub by Tolgahan Üzün",
+  "version": "1.0",
+  "description": "Chrome Momentum Extension Clone. It was intended to display the github dashboard with one click and change the settings file.",
+
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+
+    "chrome_url_overrides": {
+      "newtab": "momentum.html"
+    },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "geolocation",
+    "https://ajax.googleapis.com/",
+    "https://github.com/",
+    "https://*/*",
+    "http://*/*"
+  ]
+}
+

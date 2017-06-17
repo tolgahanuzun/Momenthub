@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Momenthub</title>
+	
+	<!-- Weather Icons stuff -->
+	<link rel="stylesheet" href="css/weather-icons.min.css">
+
+	<!-- our files -->
+	<link rel="stylesheet" href="css/materialize.min.css" type="text/css">
+	<link rel="stylesheet" href="css/momentum.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/momentum-weather.js"></script>
+	<script src="js/momentum-quote.js"></script>
+	<script src="js/momentum.js"></script>
+	<script src="js/materialize.min.js"></script>
+	
+
+</head>
+<body>
+	
+	<!-- YOUR HTML IN HERE -->
+<div class="bg-wrapper">
+	<a href="#" id='fullbutton' data-activates="slide-out" class="button-collapse fullscreen" style="position:absolute;" ></a>
+ 
+ <div class="row text-right">
+	<a class="left transparent btn-floating btn-large waves-effect waves-light" href="#modal1" ><i class="fa fa-github" aria-hidden="true"></i></a>
+	<div id="modal1" class="modal " style="z-index:2001;box-shadow:none;background-color:transparent;" >
+        <div class="col offset-s3 offset-m3 s6 m6">
+          <div class="card blue-grey darken-3">
+            <div class="card-content white-text">
+            <span class="card-title">Momenthub Settings</span>
+			<label>Name Surname</label><input type="text" class="validate" name='surname' id="surname"> 
+			<label>Github Account Name</label><input type="text" class="validate" name='git-account' id="git-account"> 
+			<button id="save" class="btn waves-effect waves-light modalc" id='modal1' >Save</button> 
+			<button id="close" class="btn waves-effect waves-light right modalc" id='modal1'>Close</button> 
+			</div>
+          </div>
+        </div>
+	</div>
+ </div>
+ <div class="text-right top-right weather">
+	<div><i class="wi wi-day-sunny"></i>&nbsp;<span id="weather"></span>&#8451;</div>	
+	<h5 id="location"></h5>
+ </div>
+
+ <div id="slide-out" class="side-nav" style="width: 550px; font-size: small;opacity: 0.8;"></div>
+
+ 
+ <div id="timeposition" class="row text-center valign-wrapper text-right  weather navbar-fixed-bottom" style=height:70%; >
+	<div class="col m9 block-text">
+	<h1 id="time"></h1><h2 id="ampm"></h2>
+	</div>
+	<h3 id="greetings" class="block-text"></h3>
+ </div>
+</div>	
+	
+	
+<script src="js/start.js"></script>
+</body>
+</html>

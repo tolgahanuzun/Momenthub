@@ -1,0 +1,121 @@
+.bg-wrapper{
+    background-image:url('https://source.unsplash.com/category/nature/1200x600');
+    background-size:cover;
+    height:100vh;
+}
+
+.bg-wrapper h1, h2, h3{
+    font-family: "Helvetica Neue";
+    color: white;
+    font-size: 15vw;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin:0;
+}
+
+.bg-wrapper h3{
+    font-size: 4vw;
+}
+
+.bg-wrapper h2{
+    font-size: 3vw;
+}
+
+.bg-wrapper::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.35);
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+}
+
+.bottom-third {
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.block-text h1,h2{
+    display:inline;
+}
+
+.quote{
+    font-family: "Helvetica Neue";
+    color: white;
+    font-size: 2vw;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin:0;
+}
+
+#quote-text{
+    font-size:1.5vw;
+}
+
+.weather{
+    font-family: "Helvetica Neue";
+    color: white;
+    font-size: 3vw;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin:0;
+}
+
+.side-nav li>a {
+    color: rgba(0,0,0,0.87);
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    line-height: 35px;
+    padding: 0 0px;
+}
+
+.side-nav li {
+    float: none;
+    line-height: 48px;
+    margin-left: -9px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar-fixed-bottom {
+    bottom: 0px;
+    margin-bottom: 1%;
+    border-width: 1px 0 0;
+}
+
+.fullscreen{ 
+    width:100%;
+    height:100%;  
+    
+}
+
+.weathers{
+    max-height: 25%;
+    width: 30%;
+    margin: 0px 10px 0px 42%;
+    overflow-y: hidden;
+
+}
+
+
+
+.modal-overlay{display: none}
+
