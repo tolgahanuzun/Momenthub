@@ -11,6 +11,17 @@
 
 ![Momenthub](https://media.giphy.com/media/tjR8KcYS0BkU8/giphy.gif)
 
+
+## Install
+
+```bash
+git clone https://github.com/tolgahanuzun/Momenthub
+cd Momenthub
+ls
+```
+- And fallow link (https://developer.chrome.com/extensions/getstarted#unpacked)
+
+
 ### Todo
 - Variable names
 - Code refactoring
